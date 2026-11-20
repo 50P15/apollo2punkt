@@ -1,0 +1,49 @@
+{
+  "env": {},
+  "apps": [
+    {
+      "name": "Desktop",
+      "image-path": "desktop.png",
+      "uuid": "0F3B4C2E-1A2B-4C3D-8E9F-000000000001"
+    },
+    {
+      "name": "Steam Big Picture",
+      "detached": ["steam://open/bigpicture"],
+      "image-path": "steam.png",
+      "uuid": "0F3B4C2E-1A2B-4C3D-8E9F-000000000002"
+    },
+    {
+      "name": "Hollow Knight",
+      "cmd": "\"C:\\Games\\Hollow Knight\\hollow_knight.exe\"",
+      "working-dir": "C:\\Games\\Hollow Knight",
+      "image-path": "C:\\Program Files\\Apollo\\config\\covers\\igdb_14593.png",
+      "uuid": "0F3B4C2E-1A2B-4C3D-8E9F-000000000003"
+    },
+    {
+      "name": "Celeste (Steam)",
+      "cmd": "timeout /t 0",
+      "detached": ["steam://rungameid/504230"],
+      "uuid": "0F3B4C2E-1A2B-4C3D-8E9F-000000000004"
+    },
+    {
+      "name": "  Rayman   Origins ",
+      "cmd": "powershell.exe -ExecutionPolicy Bypass -WindowStyle Hidden -File \"C:\\Scripts\\launch.ps1\" \"D:\\Juegos\\Rayman Origins\\Rayman Origins.exe\"",
+      "prep-cmd": [
+        { "do": "C:\\Scripts\\resolution.exe 1920 1080", "undo": "C:\\Scripts\\resolution.exe restore", "elevated": "false" }
+      ],
+      "image-path": "covers/igdb_981.png",
+      "uuid": "0F3B4C2E-1A2B-4C3D-8E9F-000000000005"
+    },
+    {
+      "name": "Minecraft (Microsoft Store)",
+      "cmd": "start shell:AppsFolder\\Microsoft.MinecraftUWP_8wekyb3d8bbwe!App",
+      "image-path": "C:\\Images\\minecraft.png",
+      "uuid": "0F3B4C2E-1A2B-4C3D-8E9F-000000000006"
+    },
+    {
+      "name": "Suspender PC",
+      "cmd": "cmd /C rundll32.exe powrprof.dll,SetSuspendState 0,1,0",
+      "uuid": "0F3B4C2E-1A2B-4C3D-8E9F-000000000007"
+    }
+  ]
+}
