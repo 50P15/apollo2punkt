@@ -70,3 +70,9 @@ GOOS=windows GOARCH=amd64 go build -trimpath -ldflags "-s -w" -o apollo2punkt.ex
 ## License
 
 MIT or Apache-2.0, at your option.
+
+## Support
+
+If you find this tool useful, you can support my work on Ko-fi. Thank you!
+
+[![Support me on Ko-fi](https://storage.ko-fi.com/cdn/kofi2.png?v=3)](https://ko-fi.com/sopis)
